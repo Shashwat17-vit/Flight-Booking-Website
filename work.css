@@ -1,0 +1,47 @@
+body
+{
+margin:0;
+padding:0;
+background-image:linear-gradient(to bottom right,white,blue);
+}
+a.name
+{
+text-align: left;
+}
+ul
+{   
+   margin-left: 2%;
+}
+li
+{
+display: inline;
+}
+a{  display:inline-block;
+padding:5px 15px;
+color:#7756d4;
+text-decoration:none;
+font-size: 1.8vw;
+font-family:Arial, Times ;
+}
+a:hover
+{background-color:#0045ff ;}
+.textimg
+{
+ position: absolute;
+  top: 200px;
+  right: 570px;
+  background-color:;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:30px;
+  font-family: Times;
+}
+.container {
+  position: relative;
+}
+tr,th,td
+{
+padding:5px; 
+margin:5px;
+}	
