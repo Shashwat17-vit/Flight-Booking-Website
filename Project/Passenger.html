@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+			<head>
+			<!--
+			 Digital Assignment Created only Using HTML AND CSS... 
+			-->
+				<title>UPS Booking</title><!-- Awesome Fonts for icons -->
+			
+			</head>
+			<style>
+				input{padding: 10px;margin: 10px;}
+			</style>
+			<script>
+				function Accept()
+				{ 
+                 var name=document.forms.detail.n.value;
+                 var to=document.forms.detail.to.value;
+                 var from=document.forms.detail.from.value;
+                 var output="Thank You Mr."+name+"for chosing UPS Airlines. Your flight booking requst from :"+from+" to :"+to+" has been accepted.";
+                 alert(output);
+                 return false;
+				}
+			</script>
+			<body style="background-color:#8080ff">
+	<h3 style="text-align: center">UPS Airlines Booking</h3>
+		<h4>Passenser Details</h4><br><br>
+		<form name="detail">
+            Name:<input type="text" name="n"></input><br>
+            Age:<input type="Number"></input><br>
+            DOB:<input type="Date"></input><br>
+            Phone Number:<input type="Number"></input><br>
+            Gender:<br><input type="radio" name="gender">Male</input><br><input type="radio" name="gender">Female</input><br>
+            To:<select name="to"><option>Chennai</option><option>Kolkata</option><option>Bangalore</option></select><br>
+            From:<select name="from"><option>Delhi</option><option>Mumbai</option><option>Surat</option></select><br>
+            Date:<input type="Date"></input><br>
+<br>
+<center><input type="submit" onclick="Accept();return false;"></input></center>
+<p id="accept"></p>
+		</form>
+			</body>
+			</html>

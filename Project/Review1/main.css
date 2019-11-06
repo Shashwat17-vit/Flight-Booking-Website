@@ -1,0 +1,21 @@
+body
+{
+margin:0; padding:0;
+background-image:linear-gradient(to bottom right,white,blue);
+}
+a.name
+{
+text-align: left;
+}
+ul
+{
+margin-left: 2%;
+}
+li
+{
+display: inline;
+}
+a{ display:inline-block; padding:5px 15px; color:#7756d4;
+text-decoration:none; font-size: 1.8vw;
+font-family:Arial, Times ;
+}
